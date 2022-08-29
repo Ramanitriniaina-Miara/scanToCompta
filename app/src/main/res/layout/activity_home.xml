@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity"
+    android:background="@drawable/background"
+    >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="60dp"
+            app:srcCompat="@drawable/ic_launcher_foreground"
+            android:layout_gravity="center_horizontal"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_margin="-20dp">
+        <Button
+            android:id="@+id/camera"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/blue_dark"
+            android:textColor="@color/light_red"
+            android:text="camera"/>
+
+        <Button
+            android:id="@+id/download_image"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/blue_dark"
+            android:text="telecharger"
+            android:textColor="@color/light_red" />
+
+        <Button
+            android:id="@+id/gallery_image"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/blue_dark"
+            android:text="gallerie"
+            android:textColor="@color/light_red" />
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="#ECE7DA"
+            android:textColor="@color/grey"
+            android:text="exit" />
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:outlineAmbientShadowColor="@color/blue" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
